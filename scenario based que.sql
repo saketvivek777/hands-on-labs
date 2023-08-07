@@ -1,0 +1,11 @@
+-- Query to get the list of all patients who have an appointment with a specific doctor on a specific date.
+-- Query to get the list of all appointments for a specific patient.
+-- Query to get the list of all doctors who are available on a specific date and time.
+-- Query to get the list of all patients who have not had an appointment in the past 6 months.
+-- Query to get the list of all patients who have seen a specific doctor more than once.
+-- Query to get the list of all patients who have been prescribed a specific medication.
+-- Query to get the list of all medications that have been prescribed to more than 100 patients.
+-- Query to get the list of all doctors who have prescribed more than the average number of medications.
+-- Query to get the list of all patients who have been prescribed a medication that is not in stock.
+-- Query to get the list of all medications that have been prescribed more often in the past 6 months than in the previous 6 months.
+-- Query to get the list of all patients who have been prescribed a medication that is more expensive than the average medication.

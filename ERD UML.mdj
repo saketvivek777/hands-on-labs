@@ -1,0 +1,527 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAGJiIuuX1lAk/k=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Data Model1",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAGJiIuuYFlBbbU=",
+					"_parent": {
+						"$ref": "AAAAAAGJiIuuX1lAk/k="
+					},
+					"name": "ERDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGJiIvJullHWpc=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJiIvJuFlFJMo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJiIvJullIvK8=",
+									"_parent": {
+										"$ref": "AAAAAAGJiIvJullHWpc="
+									},
+									"font": "Arial;13;1",
+									"left": 96,
+									"top": 101,
+									"width": 81,
+									"height": 13,
+									"text": " Doctors"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGJiIvJu1lJUAs=",
+									"_parent": {
+										"$ref": "AAAAAAGJiIvJullHWpc="
+									},
+									"model": {
+										"$ref": "AAAAAAGJiIvJuFlFJMo="
+									},
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 119,
+									"width": 81,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 96,
+							"top": 96,
+							"width": 81,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJiIvJullIvK8="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGJiIvJu1lJUAs="
+							}
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiIw2jVlS734=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 56,
+							"top": 32,
+							"width": 73,
+							"height": 41
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiIyeillZVxU=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "80:72;103:94"
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiI03fVlh4IM=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 8,
+							"top": 96,
+							"width": 49,
+							"height": 33
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJBI5FmEplo=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 72,
+							"top": 56,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJBr2VmJaj8=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 64,
+							"top": 40,
+							"width": 63.47900390625,
+							"height": 65,
+							"text": "doctor_id"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiJLSslmn5Q4=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "56:104;92:104"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJSV0FmqlOs=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 16,
+							"top": 104,
+							"width": 60,
+							"height": 25,
+							"text": "Name"
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiJUYB1mu9X8=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 24,
+							"top": 152,
+							"width": 81,
+							"height": 25
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiJVUglm0/8Y=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "64:152;116:131"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJWfTlm5N/g=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 64,
+							"top": 184,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiJXrq1nAZgA=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 144,
+							"top": 40,
+							"width": 74,
+							"height": 25
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiJYYOlnFjcY=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "136:96;176:64"
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiJenF1nOQdk=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 112,
+							"top": 168,
+							"width": 66,
+							"height": 25
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiJfVrlnTgyk=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "144:128;149:166"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJkPSFnWXPw=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 176,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJ35C1ne0Po=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 144,
+							"top": 176,
+							"width": 60,
+							"height": 15
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJ6Ph1nkc+Q=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 168,
+							"width": 60,
+							"height": 33,
+							"text": "Email"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJ7IGlnpCsg=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 152,
+							"top": 40,
+							"width": 73.63720703125,
+							"height": 33,
+							"text": "Specialist "
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiJ8+NlnxDsA=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 32,
+							"top": 152,
+							"width": 60,
+							"height": 33,
+							"text": "Contact "
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiKP5CFn2HRg=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 152,
+							"width": 74,
+							"height": 33
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiKQ+sFn7LGU=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 192,
+							"top": 152,
+							"width": 60,
+							"height": 33,
+							"text": "Location"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiKSJSVoBxqs=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "168:128;198:149"
+						},
+						{
+							"_type": "ERDEntityView",
+							"_id": "AAAAAAGJiKw1oFoGxOs=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJiKw1mVoEszY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJiKw1oVoHkfg=",
+									"_parent": {
+										"$ref": "AAAAAAGJiKw1oFoGxOs="
+									},
+									"font": "Arial;13;1",
+									"left": 560,
+									"top": 117,
+									"width": 89,
+									"height": 13,
+									"text": " Patient"
+								},
+								{
+									"_type": "ERDColumnCompartmentView",
+									"_id": "AAAAAAGJiKw1oVoI/0I=",
+									"_parent": {
+										"$ref": "AAAAAAGJiKw1oFoGxOs="
+									},
+									"model": {
+										"$ref": "AAAAAAGJiKw1mVoEszY="
+									},
+									"font": "Arial;13;0",
+									"left": 560,
+									"top": 135,
+									"width": 89,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 560,
+							"top": 112,
+							"width": 89,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJiKw1oVoHkfg="
+							},
+							"columnCompartment": {
+								"$ref": "AAAAAAGJiKw1oVoI/0I="
+							}
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiKyh9VoTEV4=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 504,
+							"top": 48,
+							"width": 65,
+							"height": 34
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiK48TVocq0o=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 496,
+							"top": 56,
+							"width": 67.82080078125,
+							"height": 25,
+							"text": "Patient_id"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiK84ElopW3w=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "544:80;572:109"
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiK9JXlos3B0=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 600,
+							"top": 48,
+							"width": 82,
+							"height": 33
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiLAA8VoyucQ=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "592:112;634:82"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiLAinlo2eNY=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 56,
+							"width": 60,
+							"height": 25,
+							"text": "Name"
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJiLBH/Vo69Mo=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 688,
+							"top": 88,
+							"width": 65,
+							"height": 33
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJiLB/SVo/Hlc=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "648:120;687:109"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJiLCdYFpDbkU=",
+							"_parent": {
+								"$ref": "AAAAAAGJiIuuYFlBbbU="
+							},
+							"font": "Arial;13;0",
+							"left": 688,
+							"top": 96,
+							"width": 76,
+							"height": 25,
+							"text": "Contact"
+						}
+					]
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGJiIvJuFlFJMo=",
+					"_parent": {
+						"$ref": "AAAAAAGJiIuuX1lAk/k="
+					},
+					"name": " Doctors"
+				},
+				{
+					"_type": "ERDEntity",
+					"_id": "AAAAAAGJiKw1mVoEszY=",
+					"_parent": {
+						"$ref": "AAAAAAGJiIuuX1lAk/k="
+					},
+					"name": " Patient"
+				}
+			]
+		}
+	]
+}
