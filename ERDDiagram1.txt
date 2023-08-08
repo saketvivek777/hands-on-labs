@@ -1,0 +1,159 @@
+cashupsheet
+
+PK [ cashupsheet id [int]
+ pendingdeposit | float
+drafts float
+banked float
+res os 
+
+
+
+
+cashupsheetdrafts
+ 
+PK  draft_id int
+FK |cashupsheet_id |int
+date date
+day  (AM or PM)
+epos float
+cash float
+pdq float
+delivery float
+difference float
+void float
+discount float
+refund float
+status varchar(50) 
+action varchar(50)
+
+
+
+banked table
+
+PK [bank_id int
+PK |cashupsheet id | int
+bankeddate ~ | date
+bankedday AM or PM
+cashup_sheetno [int
+girono int
+bankingtotal float 
+variance float
+sealedby varchar(50) 
+action varchar(50)
+
+
+
+sheetpendingdeposit
+
+PK [deposit_id] int 
+FK |cashupsheet_id |int
+date date
+time AM or PM
+epos float
+cash float
+difierence float
+
+
+
+thirdparty
+
+PK [tirdpary_id | int
+date date
+time varchar(50)
+zomato float
+justeat foat
+deliveroo float
+ubereats float
+totalthirdparty | float 
+
+
+
+
+newbanking
+
+PK newbanking_id int
+date date
+giroslipno int
+bankingtotal float
+bankedtotal float
+sealedby varchar(50)
+Selectedsheetdate | date
+ reason varchar(50)
+bankingdate date
+
+
+
+
+
+covers
+PK [covers_id int
+tablecover float
+thirdpartycover | float 
+takeaway float
+void float 
+totalcover float 
+
+
+
+editbanking
+ FK | bank_id int
+date date
+gironumber [int
+bankingtotal | float
+bankedtotal | float
+sealedby | varchar(50) 
+
+
+
+
+deposit
+PK [deposi_d int
+outstanding | float
+pendingdeposit | float
+banked float
+
+
+
+
+kpis
+PK [kpis_id int
+date date
+time varchar(50)
+totalcover [float
+totalrefund | float
+complaint | varchar(50) banked
+description | varchar(50)
+totaldiscount | float 
+
+
+
+banked 
+
+PK|banked_id int |
+bankeddate date
+cashupsheets [int
+girono. int
+bankingtotal | float
+variance float
+sealedby |varchar(50)
+action varchar(50)
+
+
+
+
+discountbreakdown
+
+PK [discountid [int
+bilnumbar | int 
+reason varchar(50)
+  amount [float 
+totaldiscount | float
+
+outstanding
+
+PK outstanding _id [int
+date date
+epos float
+cash float
+difierence float
+
